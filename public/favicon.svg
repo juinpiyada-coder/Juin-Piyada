@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <!-- Filter for slight sketchy paper shadow -->
+    <filter id="sketchShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#1A1A1A" flood-opacity="1" />
+    </filter>
+  </defs>
+
+  <!-- Outer Sketch Background Badge -->
+  <rect 
+    x="8" 
+    y="8" 
+    width="84" 
+    height="84" 
+    rx="22" 
+    ry="20" 
+    fill="#FF5E3A" 
+    stroke="#1A1A1A" 
+    stroke-width="5" 
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#sketchShadow)"
+  />
+
+  <!-- Inner Mustard Accent Ring / Circle -->
+  <circle 
+    cx="50" 
+    cy="50" 
+    r="33" 
+    fill="#FFB627" 
+    stroke="#1A1A1A" 
+    stroke-width="4" 
+  />
+
+  <!-- Center Paper Badge -->
+  <circle 
+    cx="50" 
+    cy="50" 
+    r="23" 
+    fill="#FFFCF2" 
+    stroke="#1A1A1A" 
+    stroke-width="3.5" 
+  />
+
+  <!-- Bold Typography 'SK' / 'SA' with display look -->
+  <text 
+    x="50" 
+    y="59" 
+    text-anchor="middle" 
+    font-family="'Archivo Black', 'Space Grotesk', -apple-system, sans-serif" 
+    font-weight="900" 
+    font-size="24" 
+    letter-spacing="-1" 
+    fill="#1A1A1A"
+  >
+    SK
+  </text>
+
+  <!-- Playful Doodle Star in Top Right -->
+  <path 
+    d="M74 16 L76 22 L82 22 L77 26 L79 32 L74 28 L69 32 L71 26 L66 22 L72 22 Z" 
+    fill="#2EC4B6" 
+    stroke="#1A1A1A" 
+    stroke-width="2" 
+    stroke-linejoin="round"
+  />
+
+  <!-- Small accent dot -->
+  <circle cx="24" cy="74" r="4" fill="#FF6B9D" stroke="#1A1A1A" stroke-width="2" />
+</svg>
